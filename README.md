@@ -181,6 +181,9 @@ Some examples of valid note names: `Eb4`, `C#,,`, `C4`, `d#''`, `Ab2`
 *whitenotes* - If this parameter is set to `true` only the white keys will
 be counted when finding the key number. This is mostly for internal use.
 
+#### TeoriaNote#midi()
+ - Returns the midi number of the note.
+
 #### TeoriaNote#fq([concertPitch])
  - Calculates and returns the frequency of the note.
 
